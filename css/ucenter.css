@@ -1,0 +1,72 @@
+.mb_55{margin-bottom:0.733rem}
+.mt_25{margin-top:0.333rem}
+.mtb_50{margin:0.6rem 0}
+.mb_30{margin-bottom:0.4rem}
+.mt_60{margin-top:0.8rem}
+.pb_40{padding-bottom:0.53rem}
+.fc_pink{color:#ff99c4}
+.fc_blue{color:#52a7e3}
+.bg_pink{background:#ff99c4}
+.bg_blue{background:#52a7e3}
+/*按钮*/
+.group_btn{height:1.4rem;line-height:1.4rem;text-align:center;font-size:0.467rem;color:#fff;background-size:100% 100%;}
+.group_btn img{width:0.8rem;height:1rem;margin-top:0.2rem}
+.group_btn.pink{background-image:url("../img/btns/pink.svg")}
+.group_btn.green{background-image:url("../img/btns/green.svg")}
+.group_btn.red{background-image:url("../img/btns/red.svg")}
+/*图片*/
+.u_img{box-sizing:border-box;border:5px solid #f7f7f7;border-radius:50%;}
+/*人物信息*/
+.person_info{padding-top:0.533rem}
+.person_info .info_l{float:left;width:39.8%;}
+.person_info .info_l .u_img{width: 98%;height: 98%;margin: 0 1% 0.7rem 1%}
+.person_info .heart_l{height:0.933rem;background:url("../img/heart_gy.svg") center no-repeat;background-size:auto 100%}
+.person_info .gray_btn{height:1.133rem;margin-top:0.9rem;font-size:0.470rem;line-height:1.133rem}
+.person_info .info_r{width:53.846%;float: right}
+.person_info .info_p li{width:100%;font-size:0.333rem;line-height:0.5rem}
+.person_info .info_con_l{float:left;}
+.person_info .info_con{width:62%}
+.person_info .index{display:inline-block;width:0.48rem;height:0.4rem;float:left;margin-right:0.16rem;background:url("../img/heart_gy.svg") no-repeat;background-size:100%}
+.person_info .index.gy{background:url("../img/heart_no.svg") no-repeat}
+.hoby_ic{padding-top:0.24rem}
+.hoby_ic li{margin-right:0.2rem;width:0.8rem;height:0.8rem;border-radius:0.107rem;float:left;background-size:64% 64%;background-position:center;background-repeat:no-repeat}
+.hoby_ic li:last-of-type{margin-right:0}
+.hoby_ic .ff9{background-color:#ff99c4;}
+.hoby_ic .ffb{background-color:#ffbf99;}
+.hoby_ic .b2e{background-color:#b2e84b;}
+.hoby_ic .badmin{background-image:url("../img/hoby/badmin.svg")}
+.hoby_ic .swing{background-image:url("../img/hoby/swing.svg")}
+.hoby_ic .bike{background-image:url("../img/hoby/bike.svg")}
+.hoby_ic .ski{background-image:url("../img/hoby/ski.svg")}
+.hoby_ic .body{background-image:url("../img/hoby/body.svg")}
+/*兴趣组群*/
+.header_group{position:absolute;top:0.8rem;left:0.571rem;width:0.64rem;height:0.46rem;}
+.inputs{padding:0.667rem 0}
+.select_con,.inputs_con{width:4.26rem;height:1.16rem;position:relative}
+.select_con .check_box{margin:0.35rem 0.08rem 0 0.08rem}
+.select_con .check_box.first{margin-left:0}
+.select_con .item_icon{margin-top:0.1rem}
+.inputs_con{border:2px solid #e4e4e4;border-radius:0.107rem;font-size:0.467rem;}
+.inputs_con p{float:left;padding:0 0.267rem;line-height:1.16rem}
+.inputs_con .num{text-indent:0.5rem}
+.block{height:0.334rem;background:#f7f7f7}
+.imgs{padding-top:0.666rem}
+.imgs img{width:22%;height:22%;float:left;margin:0 4% 0.506rem 0}
+.imgs img:nth-of-type(4n){margin-right:0}
+/*我的朋友*/
+.img_sim{width:48.5%;background:url("../img/img_top.svg") top center;background-size:100% auto}
+.img_sim img{width:100%;height:3.226rem;margin-top:0.426rem}
+img.load_more{margin-top:0.507rem;width:1.266rem;height:0.4rem}
+/*聊天记录*/
+.chat_record{max-height:10rem;overflow:auto;padding-top:0.466rem}
+.chat textarea{box-sizing:border-box;border-color:#fff;width:100%;padding:0.4rem 2%;font-size:0.47rem;line-height:0.733rem}
+.record_con li{padding-bottom:0.666rem;width:100%}
+.record_con h2{font-size:0.3rem}
+.chat_con{box-sizing:border-box;width:100%;font-size:0.4rem;color:#fff;margin-top:0.36rem;position:relative;line-height:0.6rem;padding:0.173rem 0.506rem;border-radius:0.5rem}
+.chat_arr{position:absolute;top:-0.293rem;width:0.48rem;height:0.8rem;}
+.my h2{text-align:left}
+.my .chat_con{float: left}
+.my .chat_arr{left:0;}
+.other h2{text-align: right}
+.other .chat_con{float: right}
+.other .chat_arr{right:0;}

@@ -1,0 +1,38 @@
+.inner_tit{font-size:0.4rem;height:2rem;line-height:2.08rem}
+.input_con{position:relative;border:2px solid #e4e4e4;border-radius:0.107rem;box-sizing:border-box;padding:0 0.307rem;font-size:0.485rem}
+.normal_arr{display:inline-block;background:#fff;width:0.22rem;height:0.22rem;z-index:1;position:absolute;border-left:2px solid #e4e4e4;border-top:2px solid #e4e4e4;border-radius:0.07rem;}
+.pb_70{padding-bottom:0.933rem}
+/*基本信息*/
+.reg_input li{height:1.2rem;margin:0.533rem auto 0 auto;width:93%;line-height:1.2rem}
+.reg_input li:last-of-type{padding-bottom:0.533rem}
+.reg_input span{float:left;font-size:0.428rem}
+.reg_input .right{float:right;width:7.2rem;height: 100%;}
+.reg_input .arr{top:0.44rem;left:-0.16rem;transform:rotate(-45deg)}
+.reg_input input{width:100%;border:none}
+.reg_input .r_select{width:7.2rem;height:100%}
+.reg_input .check_box{margin:0.325rem 0 0 0.5rem;}
+.reg_input .check_box i{margin:-0.08rem 0 0 -0.08rem;}
+.reg_input .checked{border-color:#ff99c4;}
+.reg_input .checked i{background:#ff99c4;}
+.reg_input .item img{margin:0.11rem 0.24rem 0 0.24rem;}
+.reg_input .input_icon{width:0.587rem;height:0.64rem;position:absolute;top:0.24rem;right:0.24rem;}
+.reg_input .input_date{width:90%;}
+.reg_input .right_arr{right:-0.307rem}
+/*兴趣组群*/
+.hopy_con{padding-bottom:0.707rem}
+.hopy_con li{height:0.547rem;width:50%;float:left;margin-bottom:0.373rem}
+.hopy_con .select_l{float:left;margin-left:0.4rem;height:100%;width: 0.547rem;box-sizing:border-box;border:3px solid #ccc;border-radius:0.08rem}
+.hopy_con .sielected_l{background:url("../img/selected.svg");background-size:100% 100%;border:none}
+.hopy_con p{float:left;font-size:0.34rem;padding-left:0.41rem;line-height:0.547rem}
+/*自我评价及推荐人*/
+.bot_input{height:1.147rem;line-height:1.147rem}
+.bot_input .top_arr{left:0.3rem;top:-0.15rem;transform:rotate(45deg)}
+.bot_input input{width:100%;border:none;}
+.bot_text textarea{border:none;width:100%}
+.text{box-sizing:border-box;border:2px solid #e4e4e4;border-radius:0.107rem;padding: 0.307rem;width: 100%;font-size:0.485rem;}
+.text_arr{transform:rotate(45deg);left:0.3rem;top:-0.13rem;}
+/*头像及照片*/
+.head_img{text-align:center}
+.photo_btn li{height:1.333rem;margin-bottom:0.373rem;line-height:1.333rem;font-size:0.532rem;}
+
+

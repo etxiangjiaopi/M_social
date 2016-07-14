@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*---reset----*/
+html{color:#000;background:#f7f7f7;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);word-wrap:break-word;word-break:break-all;}
+html,body{font-family:"Helvetica"}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,menu,nav,section{margin:0;padding:0}
+input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+abbr,acronym{border:0;font-variant:normal}
+del{text-decoration:line-through}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}
+q:before,q:after{content:''}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+a:hover{text-decoration:underline}
+ins,a{text-decoration:none}
+/*其他公用*/
+body{background:#fff;color:#828282}
+.l{float:left}
+.r{float:right}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:block}
+.con{width:93.33%;margin: 0 auto;}
+.po_r{position:relative;}
+/*头部*/
+.noraml_tit{position:relative;height:2rem;line-height:2rem;color:#fff;font-size:0.503rem;text-align:center;background-image:radial-gradient(7rem 4rem at 2rem 0,#ffd2b3,#ff9fc2)}
+/*右侧箭头*/
+.right_arr{width:1.26rem;height:100%;float:right;border-radius:0.107rem;position:relative;right:0}
+.right_arr .left{display: inline-block;width:2px;height:100%;background:#e4e4e4;}
+.inner_arr{display:inline-block;width:0.3rem;height:0.3rem;border-left:2px solid #e4e4e4;border-top:2px solid #e4e4e4;position:absolute;top:0.35rem;left:0.5rem;transform:rotate(-135deg)}
+/*checkedbox*/
+.item{height:100%;float:left}
+.check_box{box-sizing:border-box;float:left;display:inline-block;width:0.4rem;height:0.4rem;border-radius:0.3rem;border:3px solid #ccc;position:relative;}
+.check_box i{position: absolute;left:50%;top:50%;width:0.16rem;height:0.16rem;margin:-0.08rem 0 0 -0.08rem;border-radius:0.1rem;}
+.checked{border-color:#ff99c4;}
+.checked i{background:#ff99c4;}
+.item img{width:0.8rem;height:0.8rem;}
+/*灰色按钮*/
+.gray_btn{text-align:center;border:1px solid #d4d4d4;border-radius:0.107rem;background-image:linear-gradient(to bottom,#fff,#f1f1f1)}
+
+
